@@ -115,7 +115,6 @@ void genererCles()
 
 
 
-// Fonction pour calculer l'inverse multiplicatif
 int inverseMultiplicatif(int x)
 {
     int k = 1;
@@ -130,7 +129,6 @@ int inverseMultiplicatif(int x)
 
 
 
-// Fonction pour chiffrer le message
 void chiffrerMessage()
 {
     int valeurCaractere, valeurChiffree, cleActuelle, longueurMessage;
@@ -160,7 +158,6 @@ void chiffrerMessage()
 }
 
 
-// Fonction pour déchiffrer le message
 void dechiffrerMessage()
 {
     int valeurCaractere, valeurDechiffree, cleActuelle;
