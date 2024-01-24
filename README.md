@@ -12,5 +12,6 @@ C'est tout.
 
 Voici un exemple de ce que cela devrait donner : 
 
-![image](https://github.com/ZZhenqiu/Outil-de-cryptage-decryptage-RSA-en-C/assets/141430165/e3958a64-c4d4-4565-8bd0-86c41716023a)
+![image](https://github.com/ZZhenqiu/Outil-de-cryptage-decryptage-RSA-en-C/assets/141430165/bf6ee2fe-6024-4a01-9d69-f118dbef8362)
+
 
