@@ -14,9 +14,13 @@ https://docs.google.com/document/d/1DekOahjO3trraw4UTMqll9W1dNavJVaQ904plXO7tRk/
 
 
 Pour lancer ce programme : 
+
 -Créez un fichier par exemple « script.c ». 
+
 -Compilez-le avec la commande « gcc -o test test.c -lcrypto »
+
 -Lancez le script avec la commande ./test 1 ou ./test 2 
+
 
 Voilà. 
 
