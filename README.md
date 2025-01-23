@@ -1,17 +1,30 @@
-# Outil-de-cryptage-decryptage-RSA-en-C
+# Outil basique Time-Base-One-Time-Password (TOTP) en C + rapport Pentest
 
-Ce programme est réalisé dans un cadre pédagogique et a comme seul et unique but une meilleure compréhension des techniques de cryptographie. 
+Outil basique Time-Base-One-Time-Password (TOTP) en C + rapport Pentest
 
-Pour pouvoir tester rapidement ce programme, vous pouvez utiliser un compileur en ligne, par exemple MyCompiler. 
+Bonjour, 
 
--Copiez le code dans script.c et collez le dans MyCompiler
+Disclaimer : 
 
--N'oubliez pas d'indiquer deux nombres premiers puis le message à crypter
+Ce programme est hautement NON fonctionnel et ne prétend pas être autre chose qu’un simple exercice réalisé dans un but pédagogique. L’idée est principalement de s’entraîner sur le langage C et d’avoir une meilleure compréhension des vulnérabilités et attaques liées. 
 
-C'est tout. 
+Ce script permet la génération d’un TOTP puis sa vérification. Le but était de trouver certains vecteurs d’attaques possibles et ensuite de proposer des mesures de remédiation. Vous pouvez trouver un document plus détaillé à ce sujet ici, qui s’apparente à une forme de rapport de pentest : 
 
-Voici un exemple de ce que cela devrait donner : 
+https://docs.google.com/document/d/1DekOahjO3trraw4UTMqll9W1dNavJVaQ904plXO7tRk/edit?usp=sharing
 
-![image](https://github.com/ZZhenqiu/Outil-de-cryptage-decryptage-RSA-en-C/assets/141430165/bf6ee2fe-6024-4a01-9d69-f118dbef8362)
+
+Pour lancer ce programme : 
+-Créez un fichier par exemple « script.c ». 
+-Compilez-le avec la commande « gcc -o test test.c -lcrypto »
+-Lancez le script avec la commande ./test 1 ou ./test 2 
+
+Voilà. 
+
+Vous pouvez également utiliser MyCompiler si besoin. 
+
+
+![c](https://github.com/user-attachments/assets/e2b5b373-ecf0-483f-8210-c24a0e4c2af5)
+
+
 
 
